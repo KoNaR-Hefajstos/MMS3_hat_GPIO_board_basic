@@ -28,4 +28,6 @@ LED,,LED_0603_1608Metric,,0
 ~,H9,Hole_Tooling_JLCPCB,,1
 ~,PN1,Part_Num_JLCPCB,,1
 Chainbus in,J1,PinHeader_2x16_P2.54mm_Vertical_SMD,,1
-Conn_01x03_Pin,PIN 1,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
+MCP3421A0T-ECH,U5,SOT-23-6,,1
+Conn_01x03_Pin,J4,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
+100n,C7,C_0603,,1
