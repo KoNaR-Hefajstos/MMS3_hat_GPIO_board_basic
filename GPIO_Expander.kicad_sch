@@ -10,6 +10,210 @@
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -894,6 +1098,18 @@
 		)
 	)
 	(rectangle
+		(start 139.7 19.05)
+		(end 248.92 160.782)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4dafd6e2-e5cf-44f5-abdc-baaf1a2b4e2c)
+	)
+	(rectangle
 		(start 22.86 19.05)
 		(end 132.08 107.442)
 		(stroke
@@ -917,6 +1133,19 @@
 			(justify left)
 		)
 		(uuid "1a525bf3-22b0-42d9-9be9-9327ddaa65cd")
+	)
+	(text "Connectors\n"
+		(exclude_from_sim no)
+		(at 140.97 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "818f45a5-a446-49b6-9ef4-1d201cf1a780")
 	)
 	(junction
 		(at 68.58 83.82)
@@ -964,6 +1193,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 125.73) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02776904-f765-4733-a288-a1c21142b258")
+	)
+	(wire
+		(pts
 			(xy 119.38 50.8) (xy 110.49 50.8)
 		)
 		(stroke
@@ -971,6 +1210,26 @@
 			(type default)
 		)
 		(uuid "05a3509e-711b-4f96-be96-5b6211038c59")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5a49d0-6b8d-4a2d-b2f7-aeb97e489ea1")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16eed357-d783-4524-a574-ad210ff62e5c")
 	)
 	(wire
 		(pts
@@ -984,6 +1243,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 69.85) (xy 177.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1447d6-e55b-4db4-a98f-d807d834a2e8")
+	)
+	(wire
+		(pts
+			(xy 208.28 31.75) (xy 223.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2782493c-f251-4df8-8aec-211a93aad914")
+	)
+	(wire
+		(pts
 			(xy 92.71 99.06) (xy 92.71 93.98)
 		)
 		(stroke
@@ -991,6 +1270,26 @@
 			(type default)
 		)
 		(uuid "28ca24cc-6298-4515-8b7b-7319b89f2978")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 223.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dadd16f-da71-4795-8936-a733efd03975")
+	)
+	(wire
+		(pts
+			(xy 173.99 147.32) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336ad428-c8f7-49da-8e63-fd0853253445")
 	)
 	(wire
 		(pts
@@ -1014,6 +1313,66 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 29.21) (xy 177.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fc55b1-8cdb-43ff-a599-5f4996814370")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4476b746-5c87-444d-99a8-1069b71f7b48")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4858767c-5ecd-41cc-99c0-1c59b7b28c04")
+	)
+	(wire
+		(pts
+			(xy 219.71 128.27) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492d543a-48a8-4106-95e2-98587127c6f0")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d692b8a-eb65-455c-9fef-977d3d6443f9")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56219839-9426-408b-9654-5ad6920e6f85")
+	)
+	(wire
+		(pts
 			(xy 74.93 45.72) (xy 58.42 45.72)
 		)
 		(stroke
@@ -1024,6 +1383,46 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b80d87-9e09-4d47-99a3-3faff9ec9d47")
+	)
+	(wire
+		(pts
+			(xy 219.71 53.34) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674d018c-48c5-481c-960f-8108695acbe5")
+	)
+	(wire
+		(pts
+			(xy 173.99 34.29) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6923f125-9979-425e-9c97-02ac6fb98d46")
+	)
+	(wire
+		(pts
+			(xy 173.99 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efcb26d-1d36-4f56-878a-182bc3fec427")
+	)
+	(wire
+		(pts
 			(xy 119.38 86.36) (xy 110.49 86.36)
 		)
 		(stroke
@@ -1031,6 +1430,46 @@
 			(type default)
 		)
 		(uuid "7037fa52-b7a0-466b-8356-0679b41e79b0")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 223.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758ca0f8-c077-4c2f-bb9c-92c5c75ef52d")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c9a9aa-be73-4f72-a160-1a02047483f9")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 177.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cdd686-1bb7-4b77-94aa-6acbdd10127b")
+	)
+	(wire
+		(pts
+			(xy 219.71 86.36) (xy 223.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781b1372-5717-4b65-bac2-4f0407169f94")
 	)
 	(wire
 		(pts
@@ -1064,6 +1503,36 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fe6303-01a1-423b-b214-c68478f3a290")
+	)
+	(wire
+		(pts
+			(xy 173.99 86.36) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8654a884-12d5-44ce-9912-804f579c5294")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874f058d-8974-4f52-9163-34080c495529")
+	)
+	(wire
+		(pts
 			(xy 68.58 83.82) (xy 68.58 86.36)
 		)
 		(stroke
@@ -1071,6 +1540,36 @@
 			(type default)
 		)
 		(uuid "87aecb01-7114-47e1-bf42-242322bfb855")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8805f97e-8197-401d-8674-39c8bd041859")
+	)
+	(wire
+		(pts
+			(xy 219.71 29.21) (xy 223.52 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b351572-4d7a-4532-8c9d-56c4cf387352")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caec118-3c7c-49c0-a9aa-ce2c83f71faa")
 	)
 	(bus
 		(pts
@@ -1081,6 +1580,16 @@
 			(type default)
 		)
 		(uuid "905c633a-942d-456a-b36a-0b86a7d3ce52")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 177.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91480d10-7586-4ee2-a498-eef3eb526842")
 	)
 	(wire
 		(pts
@@ -1101,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "9321e7d3-65a0-4cc9-a00e-80142f07102b")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94071c8e-6712-4241-a22b-b8db5f9d8684")
 	)
 	(wire
 		(pts
@@ -1134,6 +1653,36 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeac160e-deb8-4f40-af05-0c4a64d43f9d")
+	)
+	(wire
+		(pts
+			(xy 219.71 104.14) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b185a25e-60fb-4d45-8282-a2cdf75a7e3d")
+	)
+	(wire
+		(pts
+			(xy 219.71 109.22) (xy 223.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3deb3c8-059c-4215-acd0-5560aff44a1d")
+	)
+	(wire
+		(pts
 			(xy 119.38 48.26) (xy 110.49 48.26)
 		)
 		(stroke
@@ -1141,6 +1690,16 @@
 			(type default)
 		)
 		(uuid "b81a2d9f-515a-473f-85c4-11517015be38")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92c3272-405a-484b-964b-199165f09483")
 	)
 	(wire
 		(pts
@@ -1154,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9faf9c-2584-4735-87c7-051fd7688b3e")
+	)
+	(wire
+		(pts
 			(xy 119.38 45.72) (xy 110.49 45.72)
 		)
 		(stroke
@@ -1161,6 +1730,26 @@
 			(type default)
 		)
 		(uuid "c5e2b7f0-e0c0-463b-8dde-1ba5d788a1aa")
+	)
+	(wire
+		(pts
+			(xy 219.71 34.29) (xy 223.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4595072-c676-4bdc-ba79-d8bf4bc9169a")
+	)
+	(wire
+		(pts
+			(xy 219.71 67.31) (xy 223.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49e001d-0f59-44ab-8948-0f8928f32fa6")
 	)
 	(wire
 		(pts
@@ -1214,6 +1803,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 72.39) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7e0468-a8ad-4b91-a4fc-9d2253db36c8")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4eb395d-1ca8-4c31-b618-98b0fc558801")
+	)
+	(wire
+		(pts
 			(xy 92.71 30.48) (xy 92.71 38.1)
 		)
 		(stroke
@@ -1221,6 +1830,16 @@
 			(type default)
 		)
 		(uuid "f759ac07-1c3e-4c8a-90bb-fee220814855")
+	)
+	(wire
+		(pts
+			(xy 219.71 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2e41ea-f097-404f-ad21-3d509ddfd9bd")
 	)
 	(wire
 		(pts
@@ -1282,6 +1901,16 @@
 		)
 		(uuid "1937cdd1-6945-4110-9f54-359fccf5c3b2")
 	)
+	(label "P13"
+		(at 208.28 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ded14c6-9247-45ca-a05c-7a6d16c89a8d")
+	)
 	(label "P03"
 		(at 119.38 53.34 180)
 		(effects
@@ -1293,6 +1922,16 @@
 		(uuid "39568da8-ba1b-4cd2-896c-41122a5555e9")
 	)
 	(label "P12"
+		(at 208.28 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49eac0ab-7a74-4941-a683-1144c70ef4bb")
+	)
+	(label "P12"
 		(at 119.38 73.66 180)
 		(effects
 			(font
@@ -1301,6 +1940,26 @@
 			(justify right bottom)
 		)
 		(uuid "4a2a88a8-ee95-44a6-bb04-ba6215cb70f4")
+	)
+	(label "P04"
+		(at 162.56 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4da9a2a4-a408-4df0-9ab7-572aa4711509")
+	)
+	(label "P11"
+		(at 208.28 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f3d4da2-ccf6-4519-8f6c-6d0c9ba55736")
 	)
 	(label "P17"
 		(at 119.38 86.36 180)
@@ -1332,6 +1991,16 @@
 		)
 		(uuid "5db71aa1-9cb9-42b2-9a2a-3fd61c8dae25")
 	)
+	(label "P05"
+		(at 162.56 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73c4bcba-6c6b-4a46-9c87-06a44ea889de")
+	)
 	(label "P04"
 		(at 119.38 55.88 180)
 		(effects
@@ -1352,6 +2021,16 @@
 		)
 		(uuid "83c27998-fa7f-4a4d-a673-c1b3ef73a228")
 	)
+	(label "P00"
+		(at 162.56 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87e9ba0f-dd8f-49a7-a706-aaeacf2065d2")
+	)
 	(label "P10"
 		(at 119.38 68.58 180)
 		(effects
@@ -1362,6 +2041,16 @@
 		)
 		(uuid "8e4a4e9f-7570-44f1-9db4-f938dc144356")
 	)
+	(label "P03"
+		(at 162.56 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "998af5cf-e052-4b82-afaf-f61b63e5c105")
+	)
 	(label "Chainbus.SCL"
 		(at 73.66 48.26 180)
 		(effects
@@ -1371,6 +2060,16 @@
 			(justify right bottom)
 		)
 		(uuid "a3016798-f7ec-43c5-aea0-af8a8b9b94fb")
+	)
+	(label "P10"
+		(at 208.28 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8120d3a-44bf-4b08-8dde-eef2979173e9")
 	)
 	(label "P01"
 		(at 119.38 48.26 180)
@@ -1392,6 +2091,26 @@
 		)
 		(uuid "ba2161f2-0dda-4292-94e8-c8bff0432bcd")
 	)
+	(label "P06"
+		(at 162.56 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c13ae6d6-962f-4842-87cf-b8726c06d295")
+	)
+	(label "P02"
+		(at 162.56 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c76c8d13-aa1a-4603-a3ac-7a7c437fc9fa")
+	)
 	(label "P07"
 		(at 119.38 63.5 180)
 		(effects
@@ -1411,6 +2130,36 @@
 			(justify right bottom)
 		)
 		(uuid "db5b6136-5220-4b1a-b367-710f968dfe83")
+	)
+	(label "P14"
+		(at 208.28 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e91bb928-3317-4a41-beff-e3246a113d4b")
+	)
+	(label "P01"
+		(at 162.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0b00b8a-15c8-423e-b943-688e38da4116")
+	)
+	(label "P07"
+		(at 208.28 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6cad6d3-33d5-4d14-9e45-11588f94b564")
 	)
 	(label "Chainbus.SDA"
 		(at 73.66 45.72 180)
@@ -1444,6 +2193,72 @@
 		(uuid "5fc1d703-b66b-4b9d-8995-71148a6e4e4b")
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 72.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08693bd1-48ca-44f1-9fae-e1362db4d976")
+		(property "Reference" "#PWR070"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbab0b7-b0c7-4178-8bc3-184b889d64de")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_Expansion:TCA9535PWR")
 		(at 92.71 66.04 0)
 		(unit 1)
@@ -1453,7 +2268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ffcace-57dc-4719-9f16-6a5ac87bf5ea")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 94.8533 38.1 0)
 			(effects
 				(font
@@ -1573,7 +2388,889 @@
 		(instances
 			(project "MMS3_hat_GPIO_board_basic"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
-					(reference "U3")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 34.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "110172f5-3006-4ef5-83df-ee45e4c17a40")
+		(property "Reference" "#PWR051"
+			(at 177.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2453b013-6b3c-41d9-898d-2ac9bcff0404")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 147.32 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a713a2-3b15-48c4-a30e-474497f805fd")
+		(property "Reference" "#PWR061"
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7168bfbc-c8ff-47b7-9a69-ea4d6dbfdfcf")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 72.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c85acf1-5878-4b41-9dd8-26811d24ff8f")
+		(property "Reference" "#PWR053"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c1f303-0261-46a0-ba1e-2f489d738a1b")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e388365-728d-487b-8288-8ea90798922c")
+		(property "Reference" "#PWR067"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52872f96-c24c-4556-b3ee-1aca62a75a18")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ab8a99-14be-494f-9749-7da071c409f0")
+		(property "Reference" "J10"
+			(at 185.42 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9eec103-ae7f-4c8a-be05-9ee0ab1c6e81")
+		)
+		(pin "3"
+			(uuid "10e007b9-c747-41fb-9eac-e4edb5a33083")
+		)
+		(pin "2"
+			(uuid "0bf61d31-7729-4c02-8abc-7473c0a95684")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d183001-c267-4101-b231-c49fe2e814f7")
+		(property "Reference" "J15"
+			(at 231.14 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da6661f-dce6-45bd-a270-feeb44237ae1")
+		)
+		(pin "3"
+			(uuid "206b0747-5d04-4bee-8544-ab18a1b56e18")
+		)
+		(pin "2"
+			(uuid "494244c1-518c-4763-b688-6d428cf9bacc")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f13414c-7415-4237-8ca1-c1f69a68d9a1")
+		(property "Reference" "#PWR058"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684df05b-9e19-4870-bbcd-89c365f7894e")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31eb3b1a-103d-45a5-8ef0-5e65a840a433")
+		(property "Reference" "J13"
+			(at 231.14 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dfc4722-c4f9-4007-8cb8-e858cb2e9b39")
+		)
+		(pin "3"
+			(uuid "83bd6c2a-bd86-4b48-865a-5f261251cd9f")
+		)
+		(pin "2"
+			(uuid "b822078a-0fad-46c4-bc94-fb996f734ebd")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ccaef71-6b1b-414e-b32d-abd52d5040a5")
+		(property "Reference" "#PWR071"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5246c9bf-0c82-4c5a-942a-87a803e97d07")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 53.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dbb20ab-547c-40cf-a540-69558b5c38d5")
+		(property "Reference" "#PWR068"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d46c657-b411-4389-a422-0c4b992d5d32")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de42f19-a037-4a79-b521-d12554fe220f")
+		(property "Reference" "J5"
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2658c6-1141-4ebb-a650-94186f30371e")
+		)
+		(pin "3"
+			(uuid "cd55c386-d8ad-4391-b133-99014179cef8")
+		)
+		(pin "2"
+			(uuid "7cfdd187-ee01-4ac8-973b-615ca18b1e51")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41fbb80c-c60e-450e-8b9e-70e26f2fe5e1")
+		(property "Reference" "#PWR076"
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d628c35-b58f-4c55-88b6-ee3ad8cc1369")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f2f33f-b609-4f97-8fe9-bef391c4f125")
+		(property "Reference" "#PWR059"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90d75419-a913-4e9e-86ee-d6d97470f291")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1646,6 +3343,144 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 173.99 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a1b7668-2d7f-465f-9605-bb97c49e4a1f")
+		(property "Reference" "#PWR056"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97f7314e-cda9-40b0-9400-54a4fa8a9e49")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c0cc06e-629b-4f56-9ee6-fa6c0efdff9e")
+		(property "Reference" "J16"
+			(at 231.14 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337aea6c-f214-4349-902e-cf05a3eb6e66")
+		)
+		(pin "3"
+			(uuid "6625feaf-ce42-4d38-ab7d-eb748bbbdd19")
+		)
+		(pin "2"
+			(uuid "e22d17d3-443f-4836-835b-0e074b5d10b9")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 33.02 68.58 0)
 		(unit 1)
@@ -1655,7 +3490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d92a0d7-4b43-4dca-8dbc-6a0b91f8d661")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 36.83 67.3099 0)
 			(effects
 				(font
@@ -1709,7 +3544,475 @@
 		(instances
 			(project "MMS3_hat_GPIO_board_basic"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
-					(reference "C3")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 29.21 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "581df9fd-584b-4b0f-8807-c57953d1ff4c")
+		(property "Reference" "#PWR062"
+			(at 213.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6d0db3a-9c05-4356-affe-f20d3fafe574")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a8057f-006d-4b93-b51a-62e3a9be06d1")
+		(property "Reference" "J4"
+			(at 185.42 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d979d9-a7af-4873-86c4-fd64711593f1")
+		)
+		(pin "3"
+			(uuid "dc0f200d-5136-42fd-af7c-9c052a6c08d4")
+		)
+		(pin "2"
+			(uuid "0f959aaa-f8e4-4e44-b5a1-74a273943153")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 34.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a9b828-4fb4-4829-a780-120c190d71ff")
+		(property "Reference" "#PWR063"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1bc33d7-e382-4c9b-966b-92e5962edc2f")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72bc37a1-2a18-4141-b611-30fa4223b643")
+		(property "Reference" "#PWR075"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3a41ed2-a4c7-4d4e-b51a-8b8c6bcdfda5")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 29.21 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c01753-b1af-4245-9dad-e27ba7464905")
+		(property "Reference" "#PWR050"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "947ee697-2332-4a22-9f64-870bf0d137ee")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75c144da-7c9b-47e2-bbb5-7c0e687d7cf7")
+		(property "Reference" "#PWR060"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7522d4b-a35c-42e8-8f1c-6973fd053c34")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 109.22 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a83ad3a-76e5-496c-abb4-3ace3ee1b2a8")
+		(property "Reference" "#PWR074"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf34a3e-1982-4d11-8b08-ef8eaa9534a5")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1725,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4fc4fa-218b-47f4-a6c3-139acf3d3708")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0101"
 			(at 33.02 63.5 0)
 			(effects
 				(font
@@ -1775,7 +4078,7 @@
 		(instances
 			(project "MMS3_hat_GPIO_board_basic"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
-					(reference "#PWR039")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1848,6 +4151,558 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1cc91f-62fa-4cea-a2d6-a8eacc6986b0")
+		(property "Reference" "J9"
+			(at 185.42 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce1d818-ae58-4d12-bdba-9e3e154eb574")
+		)
+		(pin "3"
+			(uuid "451b2804-6b88-443f-912c-7ff6d061075e")
+		)
+		(pin "2"
+			(uuid "ef574028-3459-4ae9-9ee6-b70c152677b0")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c7ab479-11f5-4849-80f5-6cb0d7f43f2d")
+		(property "Reference" "J6"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ac4081-70c8-4237-a112-97f73988fda4")
+		)
+		(pin "3"
+			(uuid "81e9068d-6742-49ac-9e9a-373cdfc9132a")
+		)
+		(pin "2"
+			(uuid "bc6c2cf3-b214-460e-9e9b-8d653667d67b")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93757234-86c8-46ec-9764-4319abf5fe68")
+		(property "Reference" "J8"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e29f964-c996-4d4a-bc6c-0d46e90440c9")
+		)
+		(pin "3"
+			(uuid "880debf6-92af-4937-9fdd-6f75c0166d60")
+		)
+		(pin "2"
+			(uuid "1f7a8c72-9ef5-4d4b-ac82-1db4f97ac2ca")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 182.88 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94cd86bd-96d3-42c9-be0b-1d15a5fed3cc")
+		(property "Reference" "J7"
+			(at 185.42 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 187.96 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b2cfca-30b6-4160-a15f-3181ce9263ca")
+		)
+		(pin "3"
+			(uuid "d06bf204-84ab-4ba7-94f7-c1bdaf45b1a9")
+		)
+		(pin "2"
+			(uuid "70d9e917-ccd7-4478-b7a1-b92be67261e4")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a29b71db-2c8a-489d-b47e-4fc22cea053d")
+		(property "Reference" "#PWR069"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e86250d-75c4-411e-bd31-ca8b2436eaa6")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 109.22 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5c319f5-eb70-49a2-b8e4-614568af8911")
+		(property "Reference" "#PWR057"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8e5516c-cf60-4fc0-8b1a-f0f45daf5fb4")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f8f9eb-3d73-4f5a-933e-585ad755055e")
+		(property "Reference" "#PWR052"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e3ee3f-db1c-477e-a231-e565e94c7e3b")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba2fbe57-2cab-4ba8-b301-1d89f6e50bb0")
+		(property "Reference" "#PWR048"
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09cacab7-ea7b-4665-a92c-fca567e4ff56")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 91.44 0)
 		(unit 1)
@@ -1908,6 +4763,354 @@
 			(project "MMS3_hat_GPIO_board_basic"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c134231a-a0a4-4a6b-a341-1685ebccea57")
+		(property "Reference" "J11"
+			(at 231.14 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d9ba11-acbb-40ba-a554-b8ee29ddd951")
+		)
+		(pin "3"
+			(uuid "d2d75691-cf6b-48ef-b251-078b07d72ea6")
+		)
+		(pin "2"
+			(uuid "a9357de7-52c7-485f-be1d-c57e87e23bdd")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c16cc214-c16b-4333-bece-224665f75ac7")
+		(property "Reference" "#PWR072"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a024544-58a0-4f0c-a9b7-5811aaa156b5")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 53.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b0354d-151b-444b-b8fc-fc5bcbaf69b3")
+		(property "Reference" "#PWR049"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26788b5a-5b6b-4016-a9bd-290bc6bdfca7")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0cfe21f-9adf-493a-b3e1-5d950b49a3e4")
+		(property "Reference" "J14"
+			(at 231.14 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6eaa366-7a28-4383-9c5c-c2f18a476aaf")
+		)
+		(pin "3"
+			(uuid "82978f63-f740-4a6f-bbc3-03c8347fb9e9")
+		)
+		(pin "2"
+			(uuid "b4efbb53-c9b4-453c-bafb-b8327c2d8ac1")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 228.6 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d99e52da-0a8d-4786-8db0-ad22b36ffe53")
+		(property "Reference" "J12"
+			(at 231.14 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d30fc16c-deaa-45d8-bb58-d5b5cc34f2cb")
+		)
+		(pin "3"
+			(uuid "57600c52-764e-4926-acad-40b5389fd135")
+		)
+		(pin "2"
+			(uuid "f444af41-413f-437b-9e41-58a04283d9e8")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1979,44 +5182,200 @@
 			)
 		)
 	)
-	(sheet
-		(at 49.53 154.94)
-		(size 20.32 21.59)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 91.44 90)
+		(mirror x)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "47f9516b-4438-48f1-999f-835b7d52fb3c")
-		(property "Sheetname" "In Out Stage #1"
-			(at 49.53 154.2284 0)
+		(uuid "eb3c8228-3922-4256-88c1-b9e5fdde5a84")
+		(property "Reference" "#PWR055"
+			(at 177.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Sheetfile" "In_Out_stage.kicad_sch"
-			(at 49.53 177.1146 0)
+		(property "Value" "+3V3"
+			(at 168.91 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
+		)
+		(property "Footprint" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1ec52b1-0daa-4067-b500-3c65f956bb97")
 		)
 		(instances
 			(project "MMS3_hat_GPIO_board_basic"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
-					(page "6")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb647967-9147-4064-b612-0c1b843c70dd")
+		(property "Reference" "#PWR073"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f59390-419c-4fbc-b6d4-aba4fcc8d02f")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef3baff0-4b16-4566-98b8-85588c93eabc")
+		(property "Reference" "#PWR054"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eddb6693-6169-4538-b896-80ec48aa5377")
+		)
+		(instances
+			(project "MMS3_hat_GPIO_board_basic"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/cf86629b-f18c-44f4-8383-4c9220c0b48a"
+					(reference "#PWR054")
+					(unit 1)
 				)
 			)
 		)

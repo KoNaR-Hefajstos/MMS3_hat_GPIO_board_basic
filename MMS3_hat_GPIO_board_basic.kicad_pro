@@ -994,10 +994,6 @@
     [
       "cf86629b-f18c-44f4-8383-4c9220c0b48a",
       "GPIO_Expander"
-    ],
-    [
-      "47f9516b-4438-48f1-999f-835b7d52fb3c",
-      "In Out Stage #1"
     ]
   ],
   "text_variables": {

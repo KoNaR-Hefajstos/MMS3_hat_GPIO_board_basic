@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffff5505",
+    "visible_layers": "ffffffff_ffffffff_fffff775_ffff5577",
     "zone_display_mode": 0
   },
   "git": {
@@ -57,13 +57,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "MMS3_hat_templates.kicad_prl",
+    "filename": "MMS3_hat_GPIO_board_basic.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -85,9 +83,7 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
       222,
@@ -98,8 +94,6 @@
       136,
       136,
       98,
-      136,
-      136,
       136,
       136
     ],

@@ -1,0 +1,43 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0603,149.05,-106.2,90.0,top
+C2,100nF,C_0603,161.45,-103.45,-90.0,top
+C3,10uF,C_0603,107.78,-106.0,0.0,top
+C4,10uF,C_0603,110.3,-110.9,-90.0,top
+C5,10uF,C_0603,108.6,-110.9,-90.0,top
+C6,100n,C_0603,131.042358,-111.528798,90.0,top
+D1,LED,LED_0603_1608Metric,168.0,-95.0,90.0,top
+G***,LOGO,QR,106.25,-117.55,0.0,bottom
+H1,M2.5 Mount,MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly,82.0,-92.0,0.0,top
+H2,M2.5 mount,MountingHole_2.7mm_M2.5,174.0,-134.0,0.0,top
+H3,M2.5 mount,MountingHole_2.7mm_M2.5,82.0,-134.0,0.0,top
+H4,M2.5 mount,MountingHole_2.7mm_M2.5,174.0,-92.0,0.0,top
+H5,M2.5 mount,MountingHole_2.7mm_M2.5,103.0,-94.0,0.0,top
+H6,M2.5 mount,MountingHole_2.7mm_M2.5,153.0,-94.0,0.0,top
+H7,~,Hole_Tooling_JLCPCB,79.0,-137.0,0.0,top
+H8,~,Hole_Tooling_JLCPCB,169.7,-90.3,0.0,top
+H9,~,Hole_Tooling_JLCPCB,85.337849,-89.057177,0.0,top
+J1,Chainbus in,PinHeader_2x16_P2.54mm_Vertical_SMD,127.99,-95.538272,270.0,bottom
+J10,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,128.2,-133.555,0.0,top
+J11,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,140.15,-133.555,0.0,top
+J12,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,152.1,-133.555,0.0,top
+J13,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,164.05,-133.555,0.0,top
+J14,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,174.555,-124.9,90.0,top
+J15,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,174.555,-112.95,90.0,top
+J16,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,174.555,-101.0,90.0,top
+J2,Chainbus Out,PinSocket_2x16_P2.54mm_Vertical_SMD,128.0,-95.558272,90.0,top
+J3,Conn_01x04_Pin,PinHeader_1x04_P2.54mm_Vertical,154.98,-100.0,90.0,top
+J5,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,82.445,-112.95,-90.0,top
+J6,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,82.445,-124.9,-90.0,top
+J7,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,92.05,-133.555,0.0,top
+J8,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,104.0,-133.555,0.0,top
+J9,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,116.25,-133.555,0.0,top
+PIN 1,Conn_01x03_Pin,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,82.445,-101.0,-90.0,top
+PN1,~,Part_Num_JLCPCB,171.25,-88.75,0.0,top
+R1,330Ω,R_0402,166.25,-94.7,90.0,top
+R2,10kΩ,R_0402,157.5,-96.9,-90.0,top
+R3,10kΩ,R_0402,158.6,-96.9,-90.0,top
+R4,10kΩ,R_0402,153.5,-103.0,0.0,top
+U1,SN74CB3Q3384APW,TSSOP-24_4.4x7.8mm_P0.65mm,144.3,-104.2,-90.0,top
+U2,M24C64,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,166.0,-100.75,90.0,top
+U3,AMS1117,SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR,103.025,-110.0,0.0,top
+U4,TCA9535PWR,TSSOP-24_4.4x7.8mm_P0.65mm,127.7,-117.2,0.0,top
