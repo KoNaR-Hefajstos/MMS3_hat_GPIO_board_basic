@@ -7,7 +7,6 @@ C5,10uF,C_0603,108.6,-110.9,-90.0,top
 C6,100n,C_0603,131.042358,-111.528798,90.0,top
 C7,100n,C_0603,94.1,-123.6,0.0,top
 D1,LED,LED_0603_1608Metric,168.0,-95.0,90.0,top
-G***,LOGO,QR,106.25,-117.55,0.0,bottom
 H1,M2.5 Mount,MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly,82.0,-92.0,0.0,top
 H2,M2.5 mount,MountingHole_2.7mm_M2.5,174.0,-134.0,0.0,top
 H3,M2.5 mount,MountingHole_2.7mm_M2.5,82.0,-134.0,0.0,top
