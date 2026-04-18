@@ -60,7 +60,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|156250000|100591903|a37ba822-549c-44f1-986e-c83541be277b|357dcfbe-c7da-45c3-81c8-7cf1db6d1d9d|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|157018679|99231318|a37ba822-549c-44f1-986e-c83541be277b|357dcfbe-c7da-45c3-81c8-7cf1db6d1d9d|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1050,7 +1059,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "D4-15,#PWR77-79,#PWR82-85,R6-17,U5",
+    "used_designators": "D2,#PWR86",
     "variants": []
   },
   "sheets": [
