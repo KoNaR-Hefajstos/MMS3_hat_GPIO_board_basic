@@ -9,22 +9,3 @@ MCP3421A0T-E/CH,U6,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,C29454,1
 Red,"D10,D11,D12,D13,D14,D15,D2,D3,D4,D5,D6,D8,D9",D_0603,C2286,13
 SN74CB3Q3384APW,U1,TSSOP-24_4.4x7.8mm_P0.65mm,C469874,1
 TCA9535PWR_C130204,U7,TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL,C130204,1
-Conn_01x03_Pin,J6,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J14,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J11,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J4,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Chainbus Out,J2,PinSocket_2x16_P2.54mm_Vertical_SMD,,1
-~,H8,Hole_Tooling_JLCPCB,,1
-Conn_01x04_Pin,J3,PinHeader_1x04_P2.54mm_Vertical,,1
-~,H7,Hole_Tooling_JLCPCB,,1
-Conn_01x03_Pin,J13,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J15,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J12,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J7,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J9,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J10,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-~,H9,Hole_Tooling_JLCPCB,,1
-Conn_01x03_Pin,J5,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J8,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Conn_01x03_Pin,J16,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,,1
-Chainbus in,J1,PinHeader_2x16_P2.54mm_Vertical_SMD,,1
